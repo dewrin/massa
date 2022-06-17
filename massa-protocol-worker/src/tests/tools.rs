@@ -38,6 +38,7 @@ where
         10,
         network_command_sender,
         network_event_receiver,
+        Default::default(),
     )
     .await
     .expect("could not start protocol controller");
